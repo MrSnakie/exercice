@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Exercice 1.5</title>
+	<title>Exercice 1.7</title>
 	<meta charset="utf-8">
 </head>
 <body>
 
 <script type="text/javascript">
 	var age = prompt("Indique moi ton âge:");
+	var sexe = prompt("Indique moi ton sexe (homme/femme):");
+	var nationalite = prompt("Indique moi ta nationalité:");
 	if (age >= 18){
-		alert("Tu est majeur.");
+		age = "majeur";
 	}
 	else {
-		alert("Tu est mineur.");
+		age = "mineur";
 	}
+	alert("Vous êtes un/une "+sexe+" "+age+" "+nationalite+".")
 </script>
 
 </body>
